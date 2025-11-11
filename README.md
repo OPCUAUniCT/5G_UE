@@ -12,10 +12,11 @@ The model has been developed as part of the *Water 4.0* project to integrate 5G 
 
 The model consists of:
 - **Common Submodels** (as specified in the IDTA guidelines):
-  - `Identification`
-  - `TechnicalData`
-  - `Documentation`
-  - `Nameplate`
+- `Identification` – General metadata describing the digital asset
+- `TechnicalData` – Basic technical attributes of the 5G UE
+- `Documentation` – Attached documentation or external references (e.g., manuals, diagrams, certificates)
+- `Nameplate` – Manufacturer and product identity (manufacturer, model, serial number, hardware/software revisions, year of construction, etc.)
+  
 - **5G-specific Submodels**:
   - `AuthenticationCertificate` — X.509 certificate for secure device authentication
   - `UE Identity` — Permanent and temporary identifiers according to 3GPP (e.g., SUPI, PEI, GUTI, MSISDN)
