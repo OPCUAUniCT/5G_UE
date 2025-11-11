@@ -15,6 +15,7 @@ The model consists of:
   - `Identification`
   - `TechnicalData`
   - `Documentation`
+  - `Nameplate`
 - **5G-specific Submodels**:
   - `AuthenticationCertificate` — X.509 certificate for secure device authentication
   - `UE Identity` — Permanent and temporary identifiers according to 3GPP (e.g., SUPI, PEI, GUTI, MSISDN)
